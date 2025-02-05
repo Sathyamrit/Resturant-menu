@@ -32,14 +32,56 @@ header{
     align-items: center;
 }
 header h1{
+    background-color: #A89C29;
+    padding: 40px;
     margin-top: 50px;
     font-size: 8em;
+    border-radius: 25px;
 }
 header h3{
     padding: 8px;
     border: 2px solid black;
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 40px;
     cursor: pointer;
     background-color: #E52020;
+}
+
+.container1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.container1 div{
+    width: 300px;
+    display: flex;
+    text-align: center;
+}
+.container1 .item1{
+    background-color: #FBA518;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.container1 .item2{
+    background-color: #FBA518;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.container1 .item3{
+    background-color: #FBA518;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #FBA518;
 }
