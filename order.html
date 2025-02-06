@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Order - Duck Fat Fries </title>
+    <title>Duck Fat Fries </title>
 </head>
 <body>
     <nav>
@@ -19,7 +19,63 @@
             <li><a href="#online">Reserveations</a></li>
         </ul>
     </nav>
+    
+    <menu class="order">
+        <div class="item">Food 1 
+            <button onclick="addItem('food1');">+</button>
+            <p id="display-item-1">0</p>
+            <button onclick="removeItem('food1');">-</button>
+        </div>
+        <div class="item">Food 2 
+            <button onclick="addItem('food2');">+</button>
+            <p id="display-item-2">0</p>
+            <button onclick="removeItem('food2');">-</button>
+        </div>
+        <div class="item">Food 3 
+            <button onclick="addItem('food3');">+</button>
+            <p id="display-item-3">0</p>
+            <button onclick="removeItem('food3');">-</button>
+        </div>
+        <div class="item">Food 4 
+            <button onclick="addItem('food4');">+</button>
+            <p id="display-item-4">0</p>
+            <button onclick="removeItem('food4');">-</button>
+        </div>
+        <div class="item">Food 5
+            <button onclick="addItem('food5');">+</button>
+            <p id="display-item-5">0</p>
+            <button onclick="removeItem('food5');">-</button>
+        </div>
+        <div class="item">Food 6
+            <button onclick="addItem('food6');">+</button>
+            <p id="display-item-6">0</p>
+            <button onclick="removeItem('food6');">-</button>
+        </div>
+        <div class="item">Food 7 
+            <button onclick="addItem('food7');">+</button>
+            <p id="display-item-7">0</p>
+            <button onclick="removeItem('food7');">-</button>
+        </div>
+        <div class="item">Food 8
+            <button onclick="addItem('food8');">+</button>
+            <p id="display-item-8">0</p>
+            <button onclick="removeItem('food8');">-</button>
+        </div>
+     
+    </menu>
 
+    <button onclick="
+        clearOrder();
+    ">Clear Order</button>
+
+    <button onclick="
+        alert('Order Placed!'); 
+        sendOrder();
+    ">Order</button>
+
+    <footer>
+        <p>&copy; 2021 Duck Fat Fries</p>
+    </footer>
 
     <script src="app.js"></script>
 </body>

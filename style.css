@@ -14,7 +14,7 @@ ul{
 
 nav{
     padding: 20px;
-    background-color: #FBA518;
+    background-color: #F9CB43;
 }
 nav ul{
     display: flex;
@@ -23,7 +23,7 @@ nav ul{
 }
 
 body{
-    background-color: #F9CB43;
+    background-color: #FBA518;
 }
 
 header{
@@ -32,7 +32,7 @@ header{
     align-items: center;
 }
 header h1{
-    background-color: #A89C29;
+    /* background-color: #A89C29; */
     padding: 40px;
     margin-top: 50px;
     font-size: 8em;
@@ -58,19 +58,19 @@ header h3{
     text-align: center;
 }
 .container1 .item1{
-    background-color: #FBA518;
+    background-color: #F9CB43;
     padding: 20px;
     margin: 10px;
     border-radius: 25px;
 }
 .container1 .item2{
-    background-color: #FBA518;
+    background-color: #F9CB43;
     padding: 20px;
     margin: 10px;
     border-radius: 25px;
 }
 .container1 .item3{
-    background-color: #FBA518;
+    background-color: #F9CB43;
     padding: 20px;
     margin: 10px;
     border-radius: 25px;
@@ -83,5 +83,25 @@ footer{
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #FBA518;
+    background-color: #F9CB43;
+}
+
+
+.order {
+    margin: 30px;
+    background-color: #F9CB43;
+    width: 200px;
+    height: 250px;
+    overflow-y: auto;
+}
+/* .order .item{
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 12px; 
+} */
+
+.item{
+    display: flex;
+    justify-content: space-around;
 }
